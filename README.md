@@ -94,6 +94,33 @@ The project includes two sample datasets:
 
 ## 🚀 Installation
 
+### System Requirements
+
+#### Minimum Requirements
+- **Operating System**: Windows 10/11, macOS 10.14+, or Linux (Ubuntu 18.04+)
+- **Python**: 3.8 or higher (3.9+ recommended)
+- **RAM**: 4 GB minimum, 8 GB recommended
+- **Storage**: 2 GB free disk space
+- **Internet**: Required for model downloads and API access
+
+#### Recommended Specifications
+- **Python**: 3.10 or 3.11 for optimal performance
+- **RAM**: 16 GB for large datasets and complex models
+- **CPU**: Multi-core processor (4+ cores recommended)
+- **GPU**: Optional, CUDA-compatible GPU for accelerated model training
+- **Storage**: SSD recommended for faster data processing
+
+#### Additional System Dependencies
+
+**For PDF Generation (Optional)**:
+- **Windows**: Download wkhtmltopdf from [official website](https://wkhtmltopdf.org/downloads.html)
+- **Linux**: `sudo apt-get install wkhtmltopdf`
+- **macOS**: `brew install wkhtmltopdf`
+
+**For Advanced NLP Features**:
+- **spaCy Language Models**: English model (~50MB) automatically downloaded
+- **NLTK Data**: Automatically downloaded on first run (~100MB)
+
 ### Prerequisites
 - Python 3.8 or higher
 - pip package manager
